@@ -1,4 +1,5 @@
 package ExcepationHandling;
+// this is the throw throws
 
 public class ThrowThrows{
     void add(int a,int b) throws ArithmeticException
