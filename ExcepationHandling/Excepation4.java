@@ -8,6 +8,7 @@ public class Excepation4 {
             System.out.println(myNumbers[10]);
         } catch (Exception e) {
             System.out.println("Something went wrong.");
+            System.out.println(e);
         } finally {
             System.out.println("The 'try catch' is finished.");
         }
@@ -15,3 +16,5 @@ public class Excepation4 {
     }
 
 }
+// o/p Something went wrong.
+// The 'try catch' is finished.
